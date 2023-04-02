@@ -1,0 +1,71 @@
+.experience {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    &__circle {
+        display: flex;
+        justify-content: center;
+        &_wrapper {
+            position: relative;
+        }
+    }
+    .circle_exper {
+        transform: translate(1px, 1px);
+    }
+    &_wrapper {
+        padding: 60px 0 0 60px;
+        display: grid;
+        grid-template-columns: 425px 425px;
+        grid-template-rows: 30px 130px 130px ;
+        grid-auto-rows: minmax(130px, auto);
+        row-gap: 45px;
+        column-gap: 136px;
+    }
+    .education {
+        display: grid;
+        grid-row: 1/2;
+        margin-bottom: 45px;
+        &:before {
+            content: '';
+            width: 15px;
+            height: 15px;
+            background-color: $main-color;
+            border-radius: 100%;
+            position: absolute;
+            transform: translate(-49px,7px);
+        
+        }
+    }
+    .grid_icon {
+        position: absolute;
+        z-index: 9;
+        padding-top: 8px;
+        padding-left: 3px;
+    }
+
+    .education-items {
+        display: grid;
+        grid-row: 2/3;
+    }
+    .education-items_grid {
+        display: flex;
+        margin-bottom: 12px;
+        div {
+            padding-left: 15px;
+            
+        }
+        .educ {
+            padding-left: 25px;
+        }
+
+    }
+    ul {
+        display: grid;
+        row-gap: 45px;
+        position: relative;
+        li {
+            list-style-type: none;
+        }
+    }
+
+
+}

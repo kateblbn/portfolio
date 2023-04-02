@@ -1,0 +1,27 @@
+.price {
+    position: relative;
+    padding-top: 120px;
+    &__wrapper {
+        padding-left: 60px;
+        display: grid;
+        grid-template-columns: 366px 366px ;
+        column-gap: 250px;
+    }
+    &__item {
+        padding-bottom: 15px;
+        div {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    &__name {
+        &:before {
+            content: '';
+            width: 15px;
+            height: 15px;
+            background: $main-color;
+            border-radius: 100%;
+            position: absolute;
+    transform: translate(-28px,4px);        }
+    }
+}

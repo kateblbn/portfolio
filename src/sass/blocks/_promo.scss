@@ -1,0 +1,57 @@
+.promo {
+    position: relative;
+    min-height: 100vh;
+    background: url("../img/main_bg.jpg") no-repeat 50%/cover ;
+    padding: 206px 0 362px 0;
+    .subtitle {
+        position: relative;
+        z-index: 2;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        color: #000000;
+    }
+    .gen_title {
+        margin-top: 9px;
+        margin-bottom: 25px;
+        width: 532px;
+        font-weight: 700;
+        font-size: 47px;
+        line-height: 60px;
+        color: #000000;
+    }
+    .social_media {
+        position: fixed;
+        width: 350px;
+        display: flex;
+        justify-content: space-around;
+        left: -100px;
+        top: 375px;
+        transform: rotate(-90deg);
+        svg path {
+            &:hover {
+                fill: #FFA501;
+            }
+        }
+        .icons {
+            display: flex;
+            width: 90px;
+            justify-content: space-between;
+            transform: rotate(180deg);
+        }
+
+        &_text {
+            width: 110px;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+        }
+        .dash {
+            display: block;
+            height: 27px;
+            border: 1px solid #000000;
+            transform: rotate(-90deg);
+        }
+    }
+
+    }

@@ -1,0 +1,56 @@
+.btn {
+    width: 135px;
+    height: 45px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+}
+.btn__portfolio {
+    background: $main-color;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    transition-duration: 0.4s;
+    &:hover {
+        outline: none;
+        text-decoration: none;
+        background-color:transparent; /* Green */
+        color: $main-color;
+        box-shadow: 1px 1px 2px 2px  #FFA501;
+    }
+    &:focus {
+        outline: none;
+    }
+}
+.btn__about_me {
+    margin-left: 22px;
+    background-color: transparent;
+    transition-duration: 0.4s;
+    &:hover {
+        box-shadow: 1px 1px 2px 2px  #FFA501;
+    }
+    &:focus {
+        outline: none;
+    }
+} 
+.contacts__button {
+    width: 219px;
+    height: 45px;
+    background: $main-color;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    transition-duration: 0.4s;
+    grid-row: 3/4;
+    &:hover {
+        outline: none;
+        text-decoration: none;
+        background-color:transparent; /* Green */
+        color: black;
+        box-shadow: 1px 1px 2px 2px  #FFA501;
+    }
+    &:focus {
+        outline: none;        
+    }
+    }

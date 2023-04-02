@@ -1,0 +1,21 @@
+.dash {
+    display: block;
+    margin-bottom: 20px;
+    width: 60px;
+    border: 2px solid #FFA501;
+    &_soc {
+        display: block;
+        margin-bottom: 20px;
+        width: 60px;
+        height: 1px;
+        background-color:black;
+        transform: translateY(11px);
+        }
+}
+.dash_exp {
+    margin: 0 auto;
+}
+.dash_price {
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
