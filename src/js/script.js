@@ -19,28 +19,19 @@ counters.forEach( (item, i) => {
 });
 
 
-jQuery('.contacts__button').click( function() {
-    var form = jQuery(this).closest('form');
-    
-    if ( form.valid() ) {
-        form.css('opacity','.5');
-        var actUrl = form.attr('action');
 
-        jQuery.ajax({
-            url: actUrl,
-            type: 'post',
-            dataType: 'html',
-            data: form.serialize(),
-            success: function(data) {
-                form.html(data);
-                form.css('opacity','1');
-                form.find('.status').html('done');
-                //$('#myModal').modal('show') // для бутстрапа
-            },
-            error:	 function() {
-                 form.find('.status').html('server error');
-            }
-        });
-    }
-});
 
+$(document).ready(function(){
+    $("#form").submit(function() { //устанавливаем событие отправки для формы с id=form
+        e.preventDefault();
+        var form_data = $(this).serialize(); //собераем все данные из формы
+            $.ajax({
+            type: 'POST', //Метод отправки
+            url: 'send.php', //путь до php фаила отправителя
+            data: form_data,
+                    success: function(data){ // сoбытиe пoслe удaчнoгo oбрaщeния к сeрвeру и пoлучeния oтвeтa
+                    alert('все ок'); // пoкaжeм eё тeкст
+                    }
+            });
+    });
+});    
