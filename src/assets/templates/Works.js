@@ -104,14 +104,14 @@ function Works() {
           <Link className='link-last' to='/about'>
             <div className='wrap_link-img'>
               <img className='works__link-img' src={last} alt='last' />
-              <div className='link-next-about'> About</div>
+              <div className='link-next-about link-next-last'> About</div>
             </div>
           </Link>
         </div>
         <div className='works__link'>
           <Link className='link-next' to='/contact'>
             <div className='wrap_link-img'>
-              <div className='link-next-about'> Contact</div>
+              <div className='link-next-about link-next-last'> Contact</div>
               <img className='works__link-img' src={next} alt='next' />
             </div>
 

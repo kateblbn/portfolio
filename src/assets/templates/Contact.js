@@ -88,8 +88,8 @@ function Contact() {
             </form>
             <div className={thank}>
               <div className='thank-border'>
-                <div className='thank-close'>X</div>
-                <p className='thank-text'>Thank you.<br/>Form sending successfull. <br/> Check your email.</p>
+                <div onClick={() => setLoading(false) } className='thank-close'>X</div>
+                <p className='thank-text'>Thank you.<br />Form sending successfull. <br /> Check your email.</p>
               </div>
             </div>
           </section>
@@ -100,7 +100,7 @@ function Contact() {
         <Link className='link-last' to='/works'>
           <div className='wrap_link-img'>
             <img className='works__link-img' src={last} alt='last' />
-            <div className='link-last-about'> Works</div>
+            <div className='link-last-about link-next-last'> Works</div>
           </div>
         </Link>
       </div>

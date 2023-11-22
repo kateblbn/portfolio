@@ -23,6 +23,7 @@ function Nav() {
                 <Link to='/contact'>Contact</Link>
             </li>
         </ul>
+        
     </div>
   )
 }

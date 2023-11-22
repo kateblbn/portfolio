@@ -19,7 +19,7 @@
     transition: .5s;
 }
 .contact__title{
-    padding: 50px 0;
+    padding: 50px 0 35px 0;
     font-size: 55px;
 }
 .contact__descr {
@@ -61,10 +61,6 @@ input {
     margin: 0 auto;
 }
 
-.contact__title {
-    font-size: 30px;
-}
-
 .btn {
     background-color: rgb(130, 131, 136);
     border: none;
@@ -99,6 +95,7 @@ h2 {
 }
 .noactive {
     display: none;
+    transition: 1s all;
 }
 .active {
     display: block;
@@ -106,7 +103,6 @@ h2 {
     margin: 0 auto;
 }
 .thank-border {
-    align-items: center;
     top: 86px;
     right: 35%;
     position: absolute;
@@ -115,7 +111,6 @@ h2 {
     padding: 0 15px;
     height: 41%;
     width: 25%;
-    transition: .5s all;
 }
 .thank-close {
     position: absolute;
@@ -124,6 +119,7 @@ h2 {
     top: 10px;
     right: 20px;
     cursor: pointer;
+
 }
 .thank-text {
     font-size: 25px;

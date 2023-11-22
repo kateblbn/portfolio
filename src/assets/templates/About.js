@@ -19,11 +19,11 @@ function About() {
         <p >"How do I know if you are a developer?" <br/>
         You spend more time debugging than developing 😄 </p>
       </div>
-
-      <h2 className='about__title'> <span className='title-name'>My name is <span className='title-bold title-color'>Kate</span>.</span> <br/> I'm a <span className='title-bold under'>Web-developer</span> based in Oslo, Norway</h2>
+{/* <span className='title-name'>My name is <span className='title-bold title-color'>Kate</span>.</span>  */}
+      <h2 className='about__title'> <br/> I'm a <span className='title-bold under'>Web-developer</span> based in Oslo, Norway</h2> 
       <p className='about__descr'>I do what I love and It's inspires me.</p>
       <div className='about__skills-wrap'>
-        <h3 className='about__skills-title'>Skills</h3>
+        <h3 className='about__skills-title'>My Skills</h3>
         <p className='about__skills-descr'>I have a diverce set of skills, randing from design, to : </p>
         <div className='skills__wrapper'>
           <div className='skills__wrap'>HTML
@@ -61,8 +61,8 @@ function About() {
         <div className='about__link'>
           <Link className='link-last' to='/'>
             <div className='wrap_link-img'>
-              <img className='about__link-img' src={last} alt='last' />
-              <div className='link-next-about'> Home</div>
+              <img className='about__link-img ' src={last} alt='last' />
+              <div className='link-next-about link-next-last'> Home</div>
             </div>
 
           </Link>
@@ -70,7 +70,7 @@ function About() {
         <div className='about__link'>
           <Link className='link-next' to='/works'>
             <div className='wrap_link-img'>
-              <div className='link-next-about'> Works</div>
+              <div className='link-next-about link-next-last'> Works</div>
               <img className='about__link-img' src={next} alt='next' />
             </div>
 
