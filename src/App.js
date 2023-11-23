@@ -3,10 +3,9 @@ import Home from "./assets/templates/Home";
 import About from "./assets/templates/About";
 import Contact from "./assets/templates/Contact";
 import Works from "./assets/templates/Works";
-
+import 'animate.css';
 
 function App() {
-
 
   return (
     <div className="App">

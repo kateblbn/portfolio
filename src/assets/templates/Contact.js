@@ -7,6 +7,7 @@ import linked from '../img/icons/social/linkedin.svg';
 import gmail from '../img/icons/social/envelope.svg';
 import emailjs from '@emailjs/browser';
 import { useEffect, useRef, useState } from "react";
+import Nav from './Nav';
 
 
 function Contact() {
@@ -42,10 +43,11 @@ function Contact() {
 
     }
   }
-  const thank = (loading) ? 'active' : 'noactive' //!!!!!!!!!!!!!!!!!!!!!!!!
+  const thank = (loading) ? 'active' : 'noactive' 
 
   return (
     <div className='contact__wrapper'>
+      <Nav />
       <h2 className='contact__title'>Contact</h2>
       <div className='contact__descr'>Let's do something great together!</div>
       <p className='contact__descr-more'>
@@ -56,19 +58,19 @@ function Contact() {
           <a className='link-margin' href='mailto:kate.pidoni@gmail.com'>
             <div className='media__wrap'>
               <img className='media__img' src={gmail} alt='social_media' />
-              Gmail
+               <div className='media__hidden-word'>Gmail</div>
             </div>
           </a>
           <a className='link-margin' href='https://github.com/kateblbn'>
             <div className='media__wrap'>
               <img className='media__img' src={github} alt='social_media' />
-              Github
+               <div className='media__hidden-word'>Github</div>
             </div>
           </a>
           <a className='link-margin' href='https://www.linkedin.com/in/katerina-balabushkina/'>
             <div className='media__wrap'>
               <img className='media__img' src={linked} alt='social_media' />
-              LinkedIn
+              <div className='media__hidden-word'>LinkedIn </div>
             </div>
           </a>
         </div>
@@ -88,7 +90,7 @@ function Contact() {
             </form>
             <div className={thank}>
               <div className='thank-border'>
-                <div onClick={() => setLoading(false) } className='thank-close'>X</div>
+                <div onClick={() => setLoading(false)} className='thank-close'>X</div>
                 <p className='thank-text'>Thank you.<br />Form sending successfull. <br /> Check your email.</p>
               </div>
             </div>

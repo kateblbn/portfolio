@@ -10,44 +10,45 @@ import php from '../img/icons/icons8-php-50.png'
 import react from '../img/icons/icons8-react-48.png'
 import sql from '../img/icons/icons8-sql-100.png'
 import sass from '../img/icons/icons8-sass-50.png'
+import Nav from './Nav'
 
 
 function About() {
   return (
     <div className='about__wrapper'>
-            <div className='non-formal__joke'>
-        <p >"How do I know if you are a developer?" <br/>
-        You spend more time debugging than developing 😄 </p>
+      <Nav/>
+      <div className='non-formal__joke'>
+        <p >"How do I know if you are a developer?" <br />
+          You spend more time debugging than developing 😄 </p>
       </div>
-{/* <span className='title-name'>My name is <span className='title-bold title-color'>Kate</span>.</span>  */}
-      <h2 className='about__title'> <br/> I'm a <span className='title-bold under'>Web-developer</span> based in Oslo, Norway</h2> 
+      <h2 className='about__title'> I'm a <span className='title-bold under'>Web-developer</span> based in Oslo, Norway</h2>
       <p className='about__descr'>I do what I love and It's inspires me.</p>
       <div className='about__skills-wrap'>
         <h3 className='about__skills-title'>My Skills</h3>
         <p className='about__skills-descr'>I have a diverce set of skills, randing from design, to : </p>
         <div className='skills__wrapper'>
-          <div className='skills__wrap'>HTML
+          <div className='skills__wrap animateHtml'>HTML
             <img className='skills__wrap-img' src={html} alt='html' />
           </div>
-          <div className='skills__wrap'>CSS
+          <div className='skills__wrap animateCss '>CSS
             <img className='skills__wrap-img' src={css} alt='css' />
           </div>
-          <div className='skills__wrap'>JavaScript
+          <div className='skills__wrap animateJs'>JavaScript
             <img className='skills__wrap-img' src={js} alt='js' />
           </div>
-          <div className='skills__wrap'>PHP
+          <div className='skills__wrap animatePhp'>PHP
             <img className='skills__wrap-img' src={php} alt='php' />
           </div>
-          <div className='skills__wrap'>React js
+          <div className='skills__wrap animateReact'>React js
             <img className='skills__wrap-img' src={react} alt='react' />
           </div>
-          <div className='skills__wrap'>Node Js
+          <div className='skills__wrap animateNode'>Node Js
             <img className='skills__wrap-img' src={node} alt='node' />
           </div>
-          <div className='skills__wrap'>SASS/SCSS
+          <div className='skills__wrap animateSass'>SASS/SCSS
             <img className='skills__wrap-img' src={sass} alt='sass' />
           </div>
-          <div className='skills__wrap'>SQL
+          <div className='skills__wrap animateSql'>SQL
             <img className='skills__wrap-img' src={sql} alt='sql' />
           </div>
         </div>

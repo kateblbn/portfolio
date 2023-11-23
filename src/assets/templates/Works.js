@@ -70,7 +70,7 @@ function Works() {
 
   return (
     <div className='works__wrapper-gen'>
-      {/* <Nav /> */}
+      <Nav />
       <h2 className='works__title'>My Portfolio</h2>
       <p className='works__descr'> Here is you can find my awesome works! </p>
       <div className='works__wrapper-wrap'>
