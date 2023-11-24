@@ -5,10 +5,13 @@
 .media-position {
     position: absolute;
     bottom: 237px;
+    z-index: 3;
     left: 0;
 }
+.link-margin {
+    cursor: pointer;
+}
 .media__wrap {
-
     width: 50px;
     display: flex;
     align-items: center;

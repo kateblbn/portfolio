@@ -20,6 +20,8 @@
 }
 .home__title {
     transition: 1s all;
+    position: relative;
+    z-index: 3;
 }
 .animate {
     animation: backInLeft; 
@@ -109,8 +111,8 @@
     font-style: italic;
     font-size: 19px;
     text-shadow: 1px 1px 5px grey;
-    animation: slideInDown;
-    animation-duration: 1s;
+    /* animation: slideInDown;
+    animation-duration: 1s; */
 }
 .non-formal__joke:hover {
     color: rgb(123, 107, 107);
@@ -120,8 +122,8 @@
     font-size: 47px;
     font-weight: 300;
     margin: 10px 0 10px 0;
-    animation: slideInDown;
-    animation-duration: 1s;
+    /* animation: slideInDown;
+    animation-duration: 1s; */
 }
 .title-name {
     font-size: 55px;
@@ -157,14 +159,17 @@ font-weight: 600;
     margin: 50px 0 60px 0;
     font-size: 35px;
     font-style: italic;
-    animation: slideInDown;
-    animation-duration: 2s;
+    /* animation: slideInDown;
+    animation-duration: 2s; */
 
 }
 
  /* SKILLS */
 .about__skills-wrap {
     text-align: center;
+    /* animation: slideInDown;
+    animation-duration: 2s; */
+
 }
 .about__skills-title {
     font-size: 50px;
@@ -207,7 +212,7 @@ font-weight: 600;
     animation: backInLeft; 
     animation-delay: 2s;
 }
-.animateHtml {animation-duration: 1s}
+.animateHtml {animation-duration: 1.2s}
 .animateCss {animation-duration: 1.5s}
 .animateJs {animation-duration: 2s}
 .animatePhp {animation-duration: 2.5s}
@@ -215,6 +220,27 @@ font-weight: 600;
 .animateNode {animation-duration: 3.5s}
 .animateSass {animation-duration: 4s}
 .animateSql  {animation-duration: 4.5s}
+
+.animateCont,
+.animateLet,
+.animateMy,
+.animatelink1,
+.animatelink2,
+.animatelink3,
+.animatelink4,
+.animatelink5
+ {
+    animation: backInLeft; 
+    /* animation-delay: 5s; */
+}
+.animateCont {animation-duration: 1.2s}
+.animateLet {animation-duration: 1.5s}
+.animateMy {animation-duration: 2s}
+.animatelink1 {animation-duration: 2.5s}
+.animatelink2 {animation-duration: 3s}
+.animatelink3 {animation-duration: 3.5s}
+.animatelink4 {animation-duration: 4s}
+.animatelink5  {animation-duration: 4.5s}
 
 .skills__wrap-img {
     width: 116px;

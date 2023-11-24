@@ -71,13 +71,13 @@ function Works() {
   return (
     <div className='works__wrapper-gen'>
       <Nav />
-      <h2 className='works__title'>My Portfolio</h2>
-      <p className='works__descr'> Here is you can find my awesome works! </p>
+      <h2 className='works__title wow animate__animated animate__bounceInDown animate__delay-1s'>My Portfolio</h2>
+      <p className='works__descr wow animate__animated animate__bounceInDown animate__delay-2s'> Here is you can find my awesome works! </p>
       <div className='works__wrapper-wrap'>
         {data.map(el => {
           return (
-            <div className='works__wrapper'>
-              <div className='works__wrap-item'>
+            <div className='works__wrapper wow animate__animated animate__bounceInDown animate__delay-0.5s'>
+              <div className='works__wrap-item wow animate__animated animate__bounce animate__delay-1s animate__repeat-2'>
                 <div className='wrap-link-img'>
                   <img className='works__wrap-link-img' src={el.img} alt='work' />
                 </div>

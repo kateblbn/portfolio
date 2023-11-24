@@ -40,35 +40,36 @@ function Contact() {
       emailRef.current.value = ''
       lastNameRef.current.value = ''
       messageRef.current.value = ''
-
     }
   }
-  const thank = (loading) ? 'active' : 'noactive' 
+  const thank = (loading) ? 'active' : 'noactive'
 
   return (
-    <div className='contact__wrapper'>
+    <>
+    {/* wow animate__animated animate__backInLeft animate__delay-1s */}
+    <div className='contact__wrapper '>
       <Nav />
-      <h2 className='contact__title'>Contact</h2>
-      <div className='contact__descr'>Let's do something great together!</div>
-      <p className='contact__descr-more'>
+      <h2 className='contact__title animateCont'>Contact</h2>
+      <div className='contact__descr animateLet'>Let's do something great together!</div>
+      <p className='contact__descr-more animateMy'>
         My diverse experience and knowledge will help you achieve what you have in mind! <br /> Feel free to contact me.
       </p>
       <div className='media-position'>
         <div className='media__wrapper'>
           <a className='link-margin' href='mailto:kate.pidoni@gmail.com'>
-            <div className='media__wrap'>
+            <div className='media__wrap animatelink1'>
               <img className='media__img' src={gmail} alt='social_media' />
-               <div className='media__hidden-word'>Gmail</div>
+              <div className='media__hidden-word'>Gmail</div>
             </div>
           </a>
           <a className='link-margin' href='https://github.com/kateblbn'>
-            <div className='media__wrap'>
+            <div className='media__wrap animatelink2'>
               <img className='media__img' src={github} alt='social_media' />
-               <div className='media__hidden-word'>Github</div>
+              <div className='media__hidden-word'>Github</div>
             </div>
           </a>
           <a className='link-margin' href='https://www.linkedin.com/in/katerina-balabushkina/'>
-            <div className='media__wrap'>
+            <div className='media__wrap animatelink3'>
               <img className='media__img' src={linked} alt='social_media' />
               <div className='media__hidden-word'>LinkedIn </div>
             </div>
@@ -82,11 +83,11 @@ function Contact() {
         <div>
           <section className='form-style'>
             <form onSubmit={handleSubmit}>
-              <input ref={nameRef} className='name brd' type='text' placeholder='First Name*' />
-              <input ref={lastNameRef} className='lastname brd' type='text' placeholder='Last Name*' />
-              <input ref={emailRef} className='email brd' type='email' placeholder='Email*' />
-              <textarea ref={messageRef} className='text brd' type='text' placeholder='Your text here.. 😇 ' />
-              <button className='btn' disabled={loading}>SEND</button>
+              <input ref={nameRef} className='name brd animatelink1' type='text' placeholder='First Name*' />
+              <input ref={lastNameRef} className='lastname brd animatelink2' type='text' placeholder='Last Name*' />
+              <input ref={emailRef} className='email brd animatelink3' type='email' placeholder='Email*' />
+              <textarea ref={messageRef} className='text brd animatelink4' type='text' placeholder='Your text here.. 😇 ' />
+              <button className='btn animatelink5' disabled={loading}>SEND</button>
             </form>
             <div className={thank}>
               <div className='thank-border'>
@@ -106,9 +107,8 @@ function Contact() {
           </div>
         </Link>
       </div>
-
-
     </div>
+    </>
   )
 }
 
