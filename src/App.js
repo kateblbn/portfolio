@@ -11,7 +11,11 @@ function App() {
   useEffect(() => {
     const wow = new WOW.WOW();
     wow.init();
+    setTimeout(() => {
+      wow.sync();
+    }, 500); // Ensures new content is recognized
   }, []);
+  
   
   return (
     <div className="App">
