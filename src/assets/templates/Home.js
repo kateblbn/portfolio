@@ -19,17 +19,17 @@ function Home() {
 
         <div className="animate">
           <h1 onMouseOver={() => setText1('WORKS')} onMouseOut={() => setText1('HELLO')} className={changeText1}>
-            <Link className={changeText1} to='/works'>{text1}</Link>
+            <Link className={changeText1} to='/my-portfolio-works/works'>{text1}</Link>
           </h1>
         </div>
         <div className="animate2">
           <h2 onMouseOver={() => setText2('ABOUT')} onMouseOut={() => setText2('I AM')} className={changeText2}>
-            <Link className={changeText2} to='/about'>{text2}</Link>
+            <Link className={changeText2} to='/my-portfolio-works/about'>{text2}</Link>
           </h2>
         </div>
         <div className="animate3">
           <h2 onMouseOver={() => setText3('CONTACT')} onMouseOut={() => setText3('Kate')} className={changeText3}>
-            <Link className={changeText3} to='/contact'>{text3}</Link>
+            <Link className={changeText3} to='/my-portfolio-works/contact'>{text3}</Link>
           </h2>
         </div>
       </div>
@@ -39,7 +39,7 @@ function Home() {
       <div className='home__link'>
         {/* setSweap(true) */}
         <Link className='link-next'
-          to='about'>
+          to='/my-portfolio-works/about'>
           <div className='wrap_link-img'>
             <div className='link-next-about link-next-last'> About</div>
             <img className='home__link-img' src={next} alt='next' />

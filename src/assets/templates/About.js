@@ -61,7 +61,7 @@ function About() {
       </div>
       <div className='about__link-wrap'>
         <div className='about__link'>
-          <Link className='link-last' to='/'>
+          <Link className='link-last' to='/my-portfolio-works'>
             <div className='wrap_link-img'>
               <img className='about__link-img ' src={last} alt='last' />
               <div className='link-next-about link-next-last'> Home</div>
@@ -70,7 +70,7 @@ function About() {
           </Link>
         </div>
         <div className='about__link'>
-          <Link className='link-next' to='/works'>
+          <Link className='link-next' to='/my-portfolio-works/works'>
             <div className='wrap_link-img'>
               <div className='link-next-about link-next-last'> Works</div>
               <img className='about__link-img' src={next} alt='next' />

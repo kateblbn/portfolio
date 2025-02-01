@@ -100,7 +100,7 @@ function Contact() {
       </div>
 
       <div className='works__link'>
-        <Link className='link-last' to='/works'>
+        <Link className='link-last' to='/my-portfolio-works/works'>
           <div className='wrap_link-img'>
             <img className='works__link-img' src={last} alt='last' />
             <div className='link-last-about link-next-last'> Works</div>
