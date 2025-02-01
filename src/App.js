@@ -4,9 +4,15 @@ import About from "./assets/templates/About";
 import Contact from "./assets/templates/Contact";
 import Works from "./assets/templates/Works";
 import 'animate.css';
+import WOW from "wowjs";
+import { useEffect } from "react";
 
 function App() {
-
+  useEffect(() => {
+    const wow = new WOW.WOW();
+    wow.init();
+  }, []);
+  
   return (
     <div className="App">
       <div className="container">
