@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio-works/static/css/main.01952356.css",
-    "main.js": "/my-portfolio-works/static/js/main.c2b48ee7.js",
+    "main.js": "/my-portfolio-works/static/js/main.1f8f8736.js",
     "static/media/me.jpg": "/my-portfolio-works/static/media/me.67cbc481524c5b64547e.jpg",
     "static/media/uber.jpg": "/my-portfolio-works/static/media/uber.8c47d71bcce94da4a607.jpg",
     "static/media/weather.jpg": "/my-portfolio-works/static/media/weather.577b3c357f17877e5795.jpg",
@@ -16,10 +16,10 @@
     "static/media/linkedin.svg": "/my-portfolio-works/static/media/linkedin.757885027fecebeb343266fa5ae768cd.svg",
     "static/media/envelope.svg": "/my-portfolio-works/static/media/envelope.5c4d5031358089786ad0f81c688d7504.svg",
     "main.01952356.css.map": "/my-portfolio-works/static/css/main.01952356.css.map",
-    "main.c2b48ee7.js.map": "/my-portfolio-works/static/js/main.c2b48ee7.js.map"
+    "main.1f8f8736.js.map": "/my-portfolio-works/static/js/main.1f8f8736.js.map"
   },
   "entrypoints": [
     "static/css/main.01952356.css",
-    "static/js/main.c2b48ee7.js"
+    "static/js/main.1f8f8736.js"
   ]
 }
