@@ -12,7 +12,6 @@ import photo from '../img/works/photo.jpg';
 import uber from '../img/works/uber.jpg';
 import weather from '../img/works/weather.jpg';
 import shop from '../img/works/shop.jpg';
-import rarrow from '../img/icons/right-arrow.png';
 
 
 
@@ -101,7 +100,7 @@ function Works() {
       </div>
       <div className='works__link-wrap'>
         <div className='works__link'>
-          <Link className='link-last' to='/my-portfolio-works/about'>
+          <Link className='link-last' to='/portfolio/about'>
             <div className='wrap_link-img'>
               <img className='works__link-img' src={last} alt='last' />
               <div className='link-next-about link-next-last'> About</div>
@@ -109,7 +108,7 @@ function Works() {
           </Link>
         </div>
         <div className='works__link'>
-          <Link className='link-next' to='/my-portfolio-works/contact'>
+          <Link className='link-next' to='/portfolio/contact'>
             <div className='wrap_link-img'>
               <div className='link-next-about link-next-last'> Contact</div>
               <img className='works__link-img' src={next} alt='next' />

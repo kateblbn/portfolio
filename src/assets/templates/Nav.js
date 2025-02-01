@@ -26,16 +26,16 @@ function Nav() {
                 <nav>
                     <ul className='menu__list'>
                         <li className='menu__link'>
-                            <Link to='/my-portfolio-works'>Home</Link>
+                            <Link to='/portfolio'>Home</Link>
                         </li>
                         <li className='menu__link'>
-                            <Link to='/my-portfolio-works/about'>About</Link>
+                            <Link to='/portfolio/about'>About</Link>
                         </li>
                         <li className='menu__link'>
-                            <Link to='/my-portfolio-works/works'>Works</Link>
+                            <Link to='/portfolio/works'>Works</Link>
                         </li>
                         <li className='menu__link'>
-                            <Link to='/my-portfolio-works/contact'>Contact</Link>
+                            <Link to='/portfolio/contact'>Contact</Link>
                         </li>
                     </ul>
                 </nav>

@@ -33,10 +33,10 @@ function App() {
       <div className="container">
         <BrowserRouter>
           <Routes>
-            <Route path="/my-portfolio-works" element={<Home />} />
-            <Route path='/my-portfolio-works/about' element={<About />} />
-            <Route path="/my-portfolio-works/contact" element={<Contact />} />
-            <Route path='/my-portfolio-works/works' element={<Works />} />
+            <Route path="/portfolio" element={<Home />} />
+            <Route path='/portfolio/about' element={<About />} />
+            <Route path="/portfolio/contact" element={<Contact />} />
+            <Route path='/portfolio/works' element={<Works />} />
           </Routes>
         </BrowserRouter>
       </div>
