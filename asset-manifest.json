@@ -1,8 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.01952356.css",
-    "main.js": "/portfolio/static/js/main.60e27f0a.js",
+    "main.js": "/portfolio/static/js/main.fdd1946f.js",
+    "static/media/consultant.png": "/portfolio/static/media/consultant.19aaaab0d312c93158d2.png",
     "static/media/me.jpg": "/portfolio/static/media/me.67cbc481524c5b64547e.jpg",
+    "static/media/oculus.png": "/portfolio/static/media/oculus.b39a0d239c09328a5b58.png",
     "static/media/uber.jpg": "/portfolio/static/media/uber.8c47d71bcce94da4a607.jpg",
     "static/media/weather.jpg": "/portfolio/static/media/weather.577b3c357f17877e5795.jpg",
     "static/media/photo.jpg": "/portfolio/static/media/photo.241f00dafb73e9986faf.jpg",
@@ -10,16 +12,17 @@
     "static/media/coffee.jpg": "/portfolio/static/media/coffee.f8b838f69837b46bf559.jpg",
     "static/media/bmi.jpg": "/portfolio/static/media/bmi.eb2699eeae2b76f7e80e.jpg",
     "static/media/shop.jpg": "/portfolio/static/media/shop.1b0d242a85238bcefd45.jpg",
+    "static/media/credit.png": "/portfolio/static/media/credit.356d6912734fc3531313.png",
     "static/media/dictionary.jpg": "/portfolio/static/media/dictionary.85b20cddb1b18072a4ea.jpg",
     "static/media/github.svg": "/portfolio/static/media/github.91b7df2cdd1c47e0783de5a9cc2f049d.svg",
     "index.html": "/portfolio/index.html",
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.757885027fecebeb343266fa5ae768cd.svg",
     "static/media/envelope.svg": "/portfolio/static/media/envelope.5c4d5031358089786ad0f81c688d7504.svg",
     "main.01952356.css.map": "/portfolio/static/css/main.01952356.css.map",
-    "main.60e27f0a.js.map": "/portfolio/static/js/main.60e27f0a.js.map"
+    "main.fdd1946f.js.map": "/portfolio/static/js/main.fdd1946f.js.map"
   },
   "entrypoints": [
     "static/css/main.01952356.css",
-    "static/js/main.60e27f0a.js"
+    "static/js/main.fdd1946f.js"
   ]
 }
