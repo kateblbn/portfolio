@@ -14,7 +14,7 @@ import weather from '../img/works/weather.jpg';
 import shop from '../img/works/shop.jpg';
 import consultant from '../img/works/consultant';
 import oculus from '../img/works/oculus';
-import store from '../img/works/store';
+import credit from '../img/works/credit';
 
 
 
